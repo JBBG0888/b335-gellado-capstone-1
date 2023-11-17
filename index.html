@@ -225,17 +225,17 @@
 			<div id="projects" class="container-fluid px-0 gx-0 mx-0 min-vh-100">
 
 					<!-- Carousel Section Start -->
-					<div class="row">
-						<div class="col-12">
+					<div class="row w-100 px-0 mx-0 gx-0">
+						<div class="col-12 px-0 mx-0">
 							<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
 							    <li data-target="" data-slide-to="0" class="active"></li>
 							    <li data-target="" data-slide-to="1"></li>
 							    <li data-target="" data-slide-to="2"></li>
 							  </ol>
-							  <div class="carousel-inner">
-							    <div class="carousel-item active">
-							      <img src="./images/construction-1.jpg" class="d-block w-100" alt="...">
+							  <div class="carousel-inner min-vh-100">
+							    <div class="carousel-item active ">
+							    	<img src="./images/construction-1.jpg" class="d-block w-100" alt="...">
 							      <div class="carousel-caption d-none d-md-block">
 							        <h1>San Miguel Brewery plant</h1>
 							      </div>
@@ -251,7 +251,6 @@
 							      <img src="images/Redacted.jpg" class="d-block w-100" alt="...">
 							      <div class="carousel-caption d-none d-md-block">
 							        <h1 class="text-danger bg-light add-border">
-							        	Sorry, i am bound by law not to give any information about the company or my projects with them to anyone without their consent
 							    	</h1>
 							      </div>
 							    </div>
@@ -272,7 +271,6 @@
 							      <img src="images/Redacted.jpg" class="d-block w-100" alt="...">
 							      <div class="carousel-caption d-none d-md-block">
 							        <h1 class="text-danger bg-light add-border">
-							        	Sorry, i am bound by law not to give any information about the company or my projects with them to anyone without their consent.
 							    	</h1>
 							      </div>
 							    </div>
@@ -329,6 +327,78 @@
 	</div>	
 <!-- Contacts section end -->
 
+<!-- Forms section Start -->
+<div id="contact-section" class="container-fluid bg-dark p-5 ">
+				<h2 class="text-white text-center">Contact Me</h2>
+
+				<div  class="row m-5 d-flex justify-content-center">
+
+					<div class="col-md-8 col-xl-4 bg-primary p-3 add-border" >
+						<form id="form-col">
+						  <div class="form-group">
+						    <label for="exampleFormControlInput1">Name</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlInput2">Email Address</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlInput3">Mobile Contact Number</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="+63 900 000 0000">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlSelect1">Concern</label>
+						    <select class="form-control" id="exampleFormControlSelect1">
+						      <option>Quotation</option>
+						      <option>2</option>
+						      <option>3</option>
+						      <option>4</option>
+						      <option>5</option>
+						    </select>
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlTextarea1">Message</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						  </div>
+
+						</form>
+
+						<!-- Button trigger modal- start -->
+						<button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#modalDiv">
+						  Send Email
+						</button>
+						<!-- Button trigger modal- end -->
+						<!-- Modal -->
+
+
+						<!-- Modal -->
+						<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        Your contact details has and message has been sent to me thank you
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					
+				</div>
+				
+			</div>
+
+			</div>
+<!-- Forms section end -->
 <!-- Bootstrap Dependencies 2/2 start-->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
