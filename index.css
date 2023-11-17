@@ -1,0 +1,54 @@
+/* CSS Reset start */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*{
+	font-family: 'Libre Baskerville', serif;
+	font-family: "Courrier New", monospace;
+	font-size: 20px;
+}
+
+.add-border{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.about-me-row{
+	background: url('./images/about-me-wallpaper.jpg');
+}
+
+.projects-row{
+	background: url('./images/about-me-wallpaper.jpg');
+}
+
+.tools-row{
+	margin: 0;
+  	padding: 0;
+  	background-image: url('./images/tools.png');
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+}
+
+.othertools-row{
+	margin: 0;
+  	padding: 0;
+  	background-image: url('./images/other-tools.jpg');
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+}
+
+.contact-row{
+	margin: 0;
+  	padding: 0;
+  	background-image: url('./images/contacts.jpg');
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+}
+
+
